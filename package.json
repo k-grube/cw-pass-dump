@@ -1,0 +1,24 @@
+{
+  "name": "cw-pass-dump",
+  "version": "0.0.1",
+  "description": "A utility to hook into CW API and dump passwords from configs.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-grube/cw-pass-dump.git"
+  },
+  "author": "kgrube <grube.kevin@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/k-grube/cw-pass-dump/issues"
+  },
+  "homepage": "https://github.com/k-grube/cw-pass-dump#readme",
+  "dependencies": {
+    "connectwise-rest": "github:covenanttechnologysolutions/connectwise-rest",
+    "dotenv": "^2.0.0",
+    "lodash": "^4.15.0"
+  }
+}
